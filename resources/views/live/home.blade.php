@@ -14,8 +14,9 @@
 			<div class="ads-area">
 				@include('live.ads')
 			</div>
-			<div class="card blog-list-area">
+
 			@foreach($blogs as $blog)
+			<div class="card blog-list-area">
 				<div class="panel">
 					<div class="panel-body ">
 						<div class="img-section col-sm-4 text-left">
